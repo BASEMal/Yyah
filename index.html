@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بيانات الطلاب</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar, .main, .aside {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #add8e6;
+        }
+        .main {
+            width: 60%;
+        }
+        .aside {
+            width: 20%;
+            background-color: #add8e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #ff0000;
+            color: white ;
+        }
+        tr:nth-child(even) {
+            background-color:#ddd;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>جانب ايسر</h2>
+        <p></p>
+    </div>
+
+    <div class="main">
+        <h1>بيانات الطلاب</h1>
+        <table>
+            <tr>
+                <th>الصورة</th>
+                <th>التخصص</th>
+                <th>العمر</th>
+                <th>الاسم</th>
+            </tr>
+            <tr>
+                <td><img src="https://via.placeholder.com/100" alt="صورة 1"></td>
+                <td>الامن السيبراني</td>
+                <td>٢١سنه</td>
+                <td>يحيى الاخرم</td>
+            </tr>
+            <tr>
+                <td><img src="Picsart_24-08-03_19-58-37-509" alt="صورة 2"></td>
+                <td>الصف 2، عمود 1</td>
+                <td>الصف 2، عمود 2</td>
+                <td>الصف 2، عمود 3</td>
+            </tr>
+            <tr>
+                <td><img src="https://via.placeholder.com/100" alt="صورة 3"></td>
+                <td>الصف 3، عمود 1</td>
+                <td>الصف 3، عمود 2</td>
+                <td>الصف 3، عمود 3</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="aside">
+        <h2>جانب ايمن</h2>
+        <p>مجانبي</p>
+    </div>
+</div>
+
+</body>
+</html>
